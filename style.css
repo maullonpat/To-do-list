@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: rgb(48, 48, 48);
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date-today {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  width: 30vw;
+  min-height: 90vh;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  overflow-y: auto;
+}
+.header-container {
+  margin: -20px;
+  margin-bottom: 2px;
+  padding: 20px;
+}
+.date-today h1 {
+  font-family: "Cedarville Cursive", sans-serif;
+  color: black;
+  font-weight: 100;
+}
+.header h1 {
+  font-family: "Cedarville Cursive", sans-serif;
+  font-weight: 500;
+  font-size: 2vw;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(76, 76, 129);
+}
+h3 {
+  font-size: 24px;
+  font-family: "Cedarville Cursive", sans-serif;
+  font-weight: 100;
+}
+h4 {
+  font-size: 24px;
+  font-family: "Cedarville Cursive", sans-serif;
+  font-weight: 100;
+  text-align: right;
+  margin: 0;
+}
+input {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  font-family: "Cedarville Cursive", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  background: #eee;
+  height: 40px;
+  border-radius: 50px;
+  list-style: none;
+  margin: 10px 0;
+  width: 100%;
+  position: relative;
+  padding: 15px;
+  font-family: "Cedarville Cursive", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  color: black;
+}
+ul .fa-check,
+.fa-trash-can {
+  position: absolute;
+  cursor: pointer;
+}
+ul .fa-check {
+  right: 50px;
+  color: green;
+}
+ul .fa-trash-can {
+  right: 20px;
+  color: rgb(151, 0, 0);
+}
+.checked {
+  text-decoration: line-through;
+  transition: 0.2s;
+  background-color: rgb(110, 211, 110);
+}
+.common-priority h1 {
+  margin-top: 30px;
+}

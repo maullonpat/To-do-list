@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What should I do today?</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="date-today">
+        <h1 id="today-is"></h1>
+        <h4 id="date-input"></h4>
+      </div>
+      <div class="header-container">
+        <div class="header">
+          <h1>What should I do today?</h1>
+        </div>
+      </div>
+      <div class="top-priority">
+        <h1>TOP PRIORITIES</h1>
+        <input type="text" id="top-priority" placeholder="My Top Priorities" />
+        <ul class="tp-list"></ul>
+      </div>
+      <div class="common-priority">
+        <h1>EVERYTHING ELSE</h1>
+        <input
+          type="text"
+          id="common-priority"
+          placeholder="Other Priorities"
+        />
+        <ul class="cp-list"></ul>
+      </div>
+    </div>
+    <!-- JQUERY SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
